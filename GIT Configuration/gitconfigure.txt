@@ -1,0 +1,83 @@
+1. To iniatialize
+   $git init
+2. To set up user name
+  $ git config --local user.name "yampoudel"
+3. To set up email
+  $ git config --local user.email "email"
+
+4. To connect to the local
+$git remote add origin "remote url"
+
+5. To pull the branch
+ $git pull origin master
+
+6. to get staus
+$git status
+
+7. to remove file from staging area
+
+$git rm --cached index.html
+
+
+8. To discard the changes in working direcory
+$git checkout <filename>
+
+9. Adding git to local 
+$git add .
+
+10. To commit 
+$git commit -m "any message"
+
+11. Push to the remote
+$git push origin master
+
+12. to get commit no
+
+$git log
+
+
+13. to make branch
+$git branch branch name
+12. To change branch
+$git checkout branch_name
+
+14. Fetching all branch
+$git fetch --all
+
+15.to merge in dev
+$git checkout dev
+$git fetch--all
+$git merge kiran
+
+16. to delete branch in remote
+$git push --delete yam
+
+17. to  delet local
+ $git branch -d  yam
+
+18. merge in dev
+$git merge branch name
+
+19. to update
+$git commit -am  "message"
+
+20. To revert changes
+git reset --hard
+
+21. To see the list of configuration
+$ git config --list
+
+
+Some commands to work with  git
+
+1. ls-> list the files and directory
+2. cd directoryname/ -> for changing directory
+3.up arrow for previous commands
+4. cd -> for home directory
+
+https://kbroman.org/github_tutorial/pages/fork.html
+
+r 36 354 288 473
+
+
+https://wpcrib.com/export-import-wordpress-website/
